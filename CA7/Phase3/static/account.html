@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Account</title></head>
+    <body>
+	    <p>
+        <div class="topnav">
+          <table border="1" text-align="center" style="width:100%">
+              <td><a href="/home">Home</a></td>
+              <td><a href="/signup">Signup</a></td>
+              <td><a href="/login">Login</a></td>
+              <td><a href="/account">Account</a></td>
+              <td><a href="/exit">Exit</a></td>
+          </table>
+        </div>
+        <br>
+        <br>
+        Account : <c:out value="${user.name}"/>
+        Current balance : <c:out value="${user.balance}"/>
+      </p>
+      <form action="csave" method=GET>
+        <input type="hidden" name="id" value="${user.name}"/>
+        Amount : <input type="text" name="balance" value="${user.balance}"/>
+        <input type="submit" value="Save"/>
+      </form>
+
+    </body>
+</html>
