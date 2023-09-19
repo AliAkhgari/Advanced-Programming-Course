@@ -12,4 +12,4 @@ This repository serves as a collection of projects completed during the Advanced
 7. **Hotel Reservation System (UTRIP)**
     - Implementation of domain logic
     - Enhancing system features using statistics 
-    - Designing a straightforward web user interface using [APHTTP](https://github.com/parnianf/Advanced-Programming-Course-Projects)
+    - Designing a straightforward web user interface using [APHTTP](https://github.com/UTAP/APHTTP)
